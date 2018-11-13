@@ -24,8 +24,8 @@
 6. Then click on **clone** button.
 7. Then click on **Current repository** again and from there mouse right-click on your selected repository and select **Open in Command Prompt**.
 8. In **Command Prompt** write **git lfs install** and click enter (if does not initialize before).
-9. Open teachers project git page and copy link by click on **Clone or download** and copy link from there.
-10. In **Command Prompt** write **git remote add old-origin** *paste URL from teachers repo* and click enter.
+9. On *GitHub website* open original project git page you copied and copy link by clicking on **Clone or download** and copy link from there.
+10. In **Command Prompt** write **git remote add old-origin** *paste URL from teachers repo to this commands end* (via right-mouse click in cmd) and click enter. Ex: *git remote add old-origin http://git.org/sth.git*
 11. In **Command Prompt** write **git lfs fetch --all old-origin** and click enter.
 12. In **Command Prompt** write **git lfs push --all origin** and click enter.
 13. In **Command Prompt** write **git lfs pull** and click enter.
